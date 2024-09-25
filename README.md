@@ -444,39 +444,39 @@ Parrot OS Install
 2. Upload Parrot ISO to the Proxmox server.
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/uploud_image_in_proxmox"><img src="manual/images/parrot/uploud_image_in_proxmox.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="uploud_image_in_proxmox"></a>
+<a href="manual/images/parrot/uploud_image_in_proxmox.png"><img src="manual/images/parrot/uploud_image_in_proxmox.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="uploud_image_in_proxmox"></a>
 </p>
 
 3. Start the VM creation process. On the General tab enter the name of your VM. Click Next.
 4. On the OS tab select the Parrot ISO. Change the Guest OS to Linux, 6.x - 2.6 Kernel. Click Next.
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/create_vm_parrot_os"><img src="manual/images/parrot/create_vm_parrot_os.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_os"></a>
+<a href="manual/images/parrot/create_vm_parrot_os.png"><img src="manual/images/parrot/create_vm_parrot_os.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_os"></a>
 </p>
 
 5. On the System page modify the settings to match EXACTLY as those shown below. If your local VM storage is named differently (e.g. NOT local, use that instead)
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/create_vm_parrot_system"><img src="manual/images/parrot/create_vm_parrot_system.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_system"></a>
+<a href="manual/images/parrot/create_vm_parrot_system.png"><img src="manual/images/parrot/create_vm_parrot_system.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_system"></a>
 </p>
 
 6. On the Disks tab, modify the size as needed. I suggest a minimum of 36GB. Modify the Cache and Discard settings as shown. Only enable Discard if using SSD/NVMe storage (not a spinning disk).
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/create_vm_parrot_disks"><img src="manual/images/parrot/create_vm_parrot_disks.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_disks"></a>
+<a href="manual/images/parrot/create_vm_parrot_disks.png"><img src="manual/images/parrot/create_vm_parrot_disks.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_disks"></a>
 </p>
 
 7. On the CPU tab, change the Type to host. Allocate however many cores you want. I chose 4.
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/create_vm_parrot_cpu"><img src="manual/images/parrot/create_vm_parrot_cpu.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_cpu"></a>
+<a href="manual/images/parrot/create_vm_parrot_cpu.png"><img src="manual/images/parrot/create_vm_parrot_cpu.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_cpu"></a>
 </p>
 
 8. On the Memory tab allocated as much memory as you want. I suggest 6GB or more.
 9. On the Network tab change the model to VirtIO.
 <p style="display: flex; flex-wrap: wrap; justify-content: center;">
 <br/>
-<a href="manual/images/parrot/create_vm_parrot_network"><img src="manual/images/parrot/create_vm_parrot_network.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_network"></a>
+<a href="manual/images/parrot/create_vm_parrot_network.png"><img src="manual/images/parrot/create_vm_parrot_network.png" style="width: 45%; max-width: 200px; height: 45%; max-height: 200px;" alt="create_vm_parrot_network"></a>
 </p>
 
 10. Review your VM configuration. Click Finish.
